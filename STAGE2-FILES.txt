@@ -1,0 +1,14 @@
+database/stage2_artist_schema.sql
+app/Services/ArtistService.php
+app/Services/ContentService.php
+app/Helpers/artist_uploads.php
+public/artist/apply.php
+public/artist/index.php
+public/artist/profile.php
+public/artist/content-create.php
+public/artist/content.php
+public/artist/community.php
+admin/artists/index.php
+admin/artists/review.php
+public/assets/css/artist-dashboard.css
+README-STAGE2-ARTIST.txt

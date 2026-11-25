@@ -1,0 +1,1 @@
+<p class="auth-legal">By continuing, you agree to our <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.</p></div></section></main><script src="../assets/js/auth.js"></script></body></html>

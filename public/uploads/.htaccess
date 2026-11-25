@@ -1,0 +1,9 @@
+# Uploads: images are public (posters, avatars). Audio/video are NEVER served from here:
+# they are delivered by stream.php (free playback) and download.php (login required).
+Options -Indexes -ExecCGI
+<FilesMatch "\.(php|phtml|phar|php[0-9]|cgi|pl|py)$">
+  Require all denied
+</FilesMatch>
+<FilesMatch "\.(mp4|webm|mp3|m4a|wav)$">
+  Require all denied
+</FilesMatch>

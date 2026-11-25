@@ -1,0 +1,5 @@
+.artist-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px;margin:24px 0}
+.stat-card,.dashboard-panel{background:#17191d;border:1px solid #30343b;border-radius:14px;padding:20px}
+.stat-card strong{display:block;font-size:1.8rem;color:#ff6548}.stat-card span{color:#b9bec7}
+.dashboard-panel{margin:24px 0}.artist-actions{display:flex;gap:14px;flex-wrap:wrap;margin:20px 0}
+.artist-actions a{color:#ff765b}

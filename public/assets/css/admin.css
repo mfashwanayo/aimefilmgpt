@@ -1,0 +1,58 @@
+/* AIMEFILMS Stage 3 — admin + shared dashboard table/form styles */
+.container{width:min(1180px,calc(100% - 48px));margin-inline:auto}
+.admin-wrap{padding:40px 0 80px}
+.admin-wrap h1{font:800 clamp(28px,4vw,40px) var(--display,'Manrope',sans-serif);letter-spacing:-1.2px;margin:10px 0 24px}
+.admin-wrap h2{font-size:18px;margin:28px 0 12px}
+.crumbs,.muted{color:#a4a1a3;font-size:13px}.crumbs a{color:#ff8a55}
+.flash-bar{max-width:1180px;margin:18px auto 0;padding:12px 16px;border-radius:10px;font-size:13px;border:1px solid #a94343;background:#391d22;color:#ffd1d1;width:calc(100% - 48px)}
+.flash-bar.flash-success{border-color:#286d4c;background:#172e25;color:#b9f4d0}
+.queue-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-bottom:12px}
+.stat-alert{text-decoration:none;transition:transform .2s,border-color .2s}.stat-alert:hover{transform:translateY(-3px);border-color:#f56b3c88}
+.status-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px;border-bottom:1px solid #ffffff1a;padding-bottom:12px}
+.status-tabs a{padding:8px 14px;border-radius:999px;font-size:13px;color:#c7c3c0;border:1px solid transparent}
+.status-tabs a small{opacity:.7;margin-left:4px}
+.status-tabs a.active,.status-tabs a:hover{color:#fff;background:linear-gradient(110deg,#e9253b,#f04b2e 48%,#ff842b)}
+.filter-bar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.filter-bar input,.filter-bar select,.decision-form textarea,.container input,.container select,.container textarea{background:#17161b;color:#fff;border:1px solid #353239;border-radius:10px;padding:10px 12px;font:inherit;font-size:13px}
+.filter-bar input[type=search]{flex:1;min-width:200px}
+.container label{display:block;margin:14px 0 6px;font-size:12px;font-weight:700}
+.container textarea,.container input:not([type=checkbox]):not([type=file]){width:100%;max-width:100%}
+.filter-bar input,.filter-bar select{width:auto}
+.container button:not(.btn){background:linear-gradient(110deg,#e9253b,#f04b2e 48%,#ff842b);color:#fff;border:0;border-radius:999px;padding:10px 20px;font-weight:700;cursor:pointer;margin-top:14px}
+.table-wrap{overflow-x:auto}
+.container table,.admin-table{width:100%;border-collapse:collapse;font-size:13px;text-align:left}
+.container th,.container td{padding:12px;border-top:1px solid #ffffff1a;vertical-align:top}
+.container th{color:#a4a1a3;font-size:11px;letter-spacing:.8px;text-transform:uppercase;border-top:0}
+.comment-cell{max-width:380px;word-break:break-word}
+.badge{display:inline-block;padding:3px 10px;border-radius:999px;font-size:11px;font-weight:700;background:#2a2930;color:#ddd}
+.badge-pending{background:#4a3410;color:#ffc872}.badge-published{background:#173d2a;color:#8ee0ac}
+.badge-rejected{background:#431b22;color:#ff9aa5}.badge-archived{background:#2d2d35;color:#b5b2bd}.badge-draft{background:#2a2930;color:#aaa}
+.btn-danger{background:#6d1e2a;color:#fff;border-color:#a94343}
+.review-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:20px}
+.review-grid video,.review-grid audio{width:100%;border-radius:12px;background:#000}
+.review-image{max-width:100%;max-height:320px;border-radius:12px;margin-top:12px;display:block}
+.detail-list{display:grid;grid-template-columns:130px 1fr;gap:8px 14px;margin:0;font-size:13px}
+.detail-list dt{color:#a4a1a3}.detail-list dd{margin:0;word-break:break-word}
+.decision-buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.decision-form button{margin-top:0}
+.container .btn{padding:10px 17px;border-radius:999px;margin-top:0}
+.container .btn.btn-small{font-size:12px}
+.container button.btn-primary{background:linear-gradient(110deg,#e9253b,#f04b2e 48%,#ff842b)}
+.container button.btn-glass{background:#ffffff0d;border:1px solid #ffffff38}.container button.btn-danger{background:#6d1e2a;border:1px solid #a94343}
+.inline-form{display:flex;gap:8px;flex-wrap:wrap}.inline-form button{margin-top:0}
+.history{list-style:none;padding:0;margin:0;font-size:13px}.history li{padding:10px 0;border-top:1px solid #ffffff14}.history li:first-child{border-top:0}
+.text-bad{color:#ff7979}
+.pagination{display:flex;gap:16px;align-items:center;justify-content:center;margin-top:24px;font-size:13px}
+.page-link{color:#ff8a55}.page-link.disabled{color:#666}
+@media(max-width:800px){.review-grid{grid-template-columns:1fr}.detail-list{grid-template-columns:1fr}.container{width:calc(100% - 32px)}}
+
+/* Stage 4 */
+.bell{position:relative;font-size:18px;line-height:1;padding:6px;color:#ddd}
+.bell-count{position:absolute;top:-4px;right:-6px;min-width:17px;height:17px;padding:0 4px;border-radius:9px;background:linear-gradient(110deg,#e9253b,#ff842b);color:#fff;font:700 10px/17px sans-serif;text-align:center}
+.notif-list{list-style:none;padding:0;margin:18px 0}
+.notif-list li{border:1px solid #ffffff1a;border-radius:12px;margin-bottom:10px;background:#141318}
+.notif-list li.unread{border-color:#f56b3c88;background:#1b1418}
+.notif-list a{display:block;padding:14px 16px}.notif-list strong{display:block;font-size:14px}
+.notif-list span{display:block;color:#c7c3c0;font-size:13px;margin-top:3px}.notif-list small{color:#8e898c;font-size:11px}
+.notif-list li.empty{padding:20px;color:#a4a1a3;text-align:center}
+.note-banner{padding:14px 16px;border-radius:12px;margin:16px 0;font-size:13px;border:1px solid}
+.note-bad{background:#391d22;border-color:#a94343;color:#ffd1d1}.note-warn{background:#3b2f14;border-color:#a8801f;color:#ffe3a0}.note-info{background:#16263a;border-color:#2c5f9a;color:#bcd9ff}

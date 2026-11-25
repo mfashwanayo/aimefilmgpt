@@ -1,0 +1,1932 @@
+
+okay do this everything was created well:Then we will build the complete aimefilms homepage with HTML, CSS and JavaScript, using the red-and-orange gradient design, and put every file in its correct location. We will make it look like a real word , not a basic student project.
+
+AIMEFILMS – Building the professional homepage
+Step 2 · Frontend development HTML · CSS · JavaScript
+
+Excellent! Now we are moving from the folder structure to the actual website.
+
+We are going to build a premium entertainment homepage, with the quality and feel of a commercial streaming platform, not a basic student project.
+
+Our visual direction:
+
+Deep black and charcoal backgrounds.
+
+Red-to-orange gradient brand identity.
+
+Large cinematic hero section.
+
+Professional movie and music cards.
+
+Modern navigation and search.
+
+Smooth hover effects and animations.
+
+Responsive desktop, tablet and mobile layouts.
+
+Separate branding for FilmsNyarwanda, AIMEFILMS and MusicSpart.
+
+1. Homepage design preview
+CineStream Pro — Movie Streaming App Built with AI | Blink
+Movie Website Template Design Projects :: Photos, videos, logos, illustrations and branding :: Behance
+mCini Tv - An African based OTT Platform by Roshni Satpathy on Dribbble
+We'll build the shared AIMEFILMS landing homepage first. It will introduce all three entertainment platforms, allowing visitors to enter the platform they want.
+
+2. Files we will create
+Use your existing directory:
+
+C:\xampp2\htdocs\aimefilms
+
+We will put the following files in their correct locations:
+
+aimefilms/
+│
+├── public/
+│   ├── index.php
+│   │
+│   └── assets/
+│       ├── css/
+│       │   ├── variables.css
+│       │   ├── main.css
+│       │   ├── components.css
+│       │   └── responsive.css
+│       │
+│       ├── js/
+│       │   └── main.js
+│       │
+│       └── images/
+│
+└── config/
+    └── app.php
+We will use PHP for the homepage entry point, HTML for the structure, CSS for the visual design and JavaScript for the interactions.
+
+3. Download the complete frontend files
+AIMEFILMS Frontend Package
+
+8 files · PHP, CSS, JavaScript · ZIP
+
+Ready
+Download AIMEFILMS Frontend
+
+4. Install the frontend
+Download the ZIP file.
+
+Extract it.
+
+Open the extracted aimefilms folder.
+
+Copy its contents into your existing directory:
+
+C:\xampp2\htdocs\aimefilms\
+Allow Windows to merge the folders and replace the empty placeholder files.
+
+Open XAMPP and start Apache.
+
+5. View your homepage
+Open your browser and visit:
+
+AIMEFILMS Local Website
+
+http://localhost/aimefilms/public/
+6. What is included?
+File
+
+Function
+
+index.php
+
+Homepage
+
+variables.css
+
+Brand colors
+
+components.css
+
+Buttons and reusable components
+
+main.css
+
+Main design
+
+responsive.css
+
+Mobile responsiveness
+
+main.js
+
+Navigation and interactions
+
+app.php
+
+Application settings
+
+Important: This is our first frontend landing page. Search, authentication, platform destinations, database content and streaming will be connected in subsequent development stages. The current design uses online images and Google Fonts, so an internet connection is needed for those assets.
+
+7. Our next development milestone
+After confirming the homepage works, we'll build the three independent websites:
+
+IROKOTV Landing Page Experience — Martin Stubbs
+FilmsNyarwanda
+
+Movies, series, actors, directors and trailers.
+
+Did Global Cinema Hero Section - Supahero
+AIMEFILMS
+
+Original productions, filmmakers and exclusive releases.
+
+What is Boomplay and How to Use It | KOSIGN
+MusicSpart
+
+Artists, albums, music videos and streaming.
+
+Your next action: Install the ZIP and open the homepage. Send me a screenshot of what appears in your browser. We'll then refine the design and build the three individual platform homepages.
+
+
+Context window full
+Start a new chat with an automatic summary of this conversation, or upgrade to continue here with more context available in every chat.
+
+
+
+
+
+
+
+
+Continued from
+AIMEFILMS Feature Blueprint
+this is database table.
+
+ Unlink from main panel (image)
+New (image)
+
+New
+
+image (image)
+
+Database operations (image)
+
+aimefilms
+
+New (image)
+
+New
+
+Expand/Collapse (image)
+
+Structure (image)
+
+artist_applications
+
+ ()
+
+ ()
+
+
+ ()
+
+ ()
+
+
+ ()
+
+ ()
+
+
+ ()
+
+ ()
+
+
+ ()
+
+ ()
+
+
+ ()
+
+ ()
+
+
+ ()
+
+ ()
+
+
+ ()
+
+ ()
+
+
+…
+Thank you. I can see that your aimefilms database currently contains these 10 tables:
+
+Table
+
+Purpose
+
+users
+
+User accounts and authentication
+
+roles
+
+User roles and permissions
+
+auth_logs
+
+Authentication activity
+
+artist_applications
+
+Artist registration and approval
+
+artist_profiles
+
+Artist information and profiles
+
+artist_content
+
+Uploaded movies, music and videos
+
+artist_earnings
+
+Artist earnings
+
+artist_follows
+
+Artist followers
+
+content_comments
+
+Content comments
+
+This confirms that the database already has the foundation for the AIMEFILMS authentication and artist dashboard.
+
+Before I build Stage 3 (Admin Content Moderation), I need to verify the actual column names and data types. The table names alone are not enough to safely write compatible PHP and SQL.
+
+Please do this in phpMyAdmin
+Open the aimefilms database.
+
+Click the Export tab.
+
+Select Custom.
+
+Select all 10 tables.
+
+Choose SQL as the format.
+
+Export and upload the .sql file here.
+
+Alternatively, send screenshots of the Structure tab for artist_content, artist_applications, and users.
+
+Once I have the structure, I can build the moderation system to match your existing database without unnecessarily changing or deleting your existing tables.
+
+okey continue on the next step give the zip file
+
+Worked for 15s
+
+I’ve checked the project ZIP you uploaded and verified the actual artist_content schema. Its moderation statuses are draft, pending, published, rejected, and archived, and it supports all three platforms.
+
+I’m using those existing values for the Stage 3 moderation system rather than introducing incompatible status names. I’m also including fixes for the database connection and flash-message helper, which currently prevent parts of the artist/admin modules from working.
+
+It seems like I can’t do more advanced data analysis right now. Please try again later.
+
+I verified your uploaded project and confirmed the database structure, including the five valid content moderation statuses.
+
+I attempted to generate aimefilms_stage3_admin_moderation.zip, but the file-generation tool could not be invoked. The ZIP has not been created, so I cannot give you a working download link yet.
+
+Your original project and database have not been modified.
+
+You’re out of data analysis for now. Start a free Plus trial for more, or try again after 11:25 PM.
+
+
+give the next step or 
+
+
+
+
+i wanna build an aimefilms that wen have the 3part webites  one part it is filmsnyarwanda, aimefilms and musicspart all website can deferetiet the arthers will support user and  and admin i want to use it using PHP PDO  and i want you to list every features that will be needed and make it porffessional with everything that it can compete in real world
+AIMEFILMS – Professional Entertainment & Digital Media Platform
+What you're describing is bigger than an ordinary movie website. You're planning a complete entertainment ecosystem with three connected platforms operating under one system, sharing users, administrators, content management, subscriptions, and other services.
+
+I recommend building it as a professional, scalable platform using PHP 8+, MySQL, PDO, HTML5, CSS3, JavaScript, and Bootstrap 5.
+
+The goal should be to build something capable of competing with established entertainment platforms while giving Rwandan filmmakers, actors, musicians, producers, and content creators a place to showcase and monetize their work.
+
+Let's design it properly.
+
+1. The three main platforms
+THE DROP
+1. FILMSNYARWANDA
+
+Rwandan cinema
+A dedicated platform for Rwandan movies, series, short films, documentaries, and local film productions.
+
+Rwandan movies
+
+Local actors and directors
+
+Rwandan film industry news
+
+Local film premieres
+
+Film production companies
+
+Anbu  | Portfolio
+2. AIMEFILMS
+
+International entertainment
+The main entertainment platform for international and regional movies.
+
+International movies
+
+African movies
+
+Hollywood films
+
+Nollywood films
+
+TV series
+
+Documentaries
+
+Exclusive productions
+
+Uganda (EN) - The LAB — MUSIC CONNECTS
+3. MUSICSPART
+
+Music entertainment
+A music streaming and artist promotion platform.
+
+Music streaming
+
+Albums and EPs
+
+Singles
+
+Music videos
+
+Artist profiles
+
+Playlists
+
+Music charts
+
+Artist monetization
+
+My recommendation: Build these as three separate frontends with one shared backend. This means one registration system, one database ecosystem, one admin dashboard, and three distinct entertainment experiences.
+
+2. User roles and permissions
+Your system should have different user types. Not everybody should have the same permissions.
+
+Role
+
+Responsibilities
+
+Super Admin
+
+Controls the entire ecosystem
+
+Admin
+
+Manages assigned platforms
+
+Content Manager
+
+Manages movies, music and categories
+
+Author/Creator
+
+Uploads and manages own content
+
+Artist
+
+Manages music and artist profile
+
+Filmmaker
+
+Manages films and productions
+
+Moderator
+
+Reviews comments and reports
+
+Subscriber
+
+Accesses paid content
+
+Free User
+
+Accesses free content
+
+Guest
+
+Browses public content
+
+Role-based permissions
+For example:
+
+A music artist should not automatically manage movies.
+
+A filmmaker should not manage another filmmaker's productions.
+
+An author should edit only their own content unless granted additional permissions.
+
+An administrator should manage only the platform assigned to them.
+
+A super administrator should control all three platforms.
+
+Use Role-Based Access Control (RBAC) with permissions stored in the database.
+
+3. Features required across all three websites
+These are shared features that should work across FilmsNyarwanda, AimeFilms, and MusicSpart.
+
+A. User authentication and accounts
+User registration
+
+Login and logout
+
+Email verification
+
+Phone number verification
+
+Forgot password
+
+Reset password
+
+Change password
+
+Profile picture
+
+Cover photo
+
+Username
+
+User biography
+
+Account settings
+
+Account deletion
+
+Login history
+
+Active sessions
+
+Two-factor authentication
+
+Social login (Google, where supported)
+
+Account suspension
+
+Account verification badges
+
+B. User dashboard
+Every registered user should have a personal dashboard.
+
+Netflix- Dashboard :: Behance
+Dashboard features:
+
+Account overview
+
+Recently watched movies
+
+Recently played music
+
+Watchlist
+
+Favorites
+
+Followed artists
+
+Followed filmmakers
+
+Purchased content
+
+Active subscriptions
+
+Download history
+
+Notifications
+
+Account security
+
+Payment history
+
+Support requests
+
+C. Search system
+Build a powerful search engine.
+
+Users should be able to search for:
+
+Movies
+
+Music
+
+Artists
+
+Actors
+
+Directors
+
+Producers
+
+Albums
+
+Series
+
+Episodes
+
+Genres
+
+Categories
+
+Advanced search filters:
+
+Release year
+
+Country
+
+Language
+
+Genre
+
+Rating
+
+Popularity
+
+Recently uploaded
+
+Most viewed
+
+Most downloaded
+
+Free or premium
+
+Include search suggestions and search history.
+
+D. Notification system
+New movie notifications
+
+New music notifications
+
+New episodes
+
+New album releases
+
+Subscription expiration reminders
+
+Payment confirmations
+
+Artist updates
+
+Creator announcements
+
+Admin announcements
+
+Security alerts
+
+Notifications should support both in-app notifications and email notifications.
+
+E. Reviews, ratings and comments
+Five-star rating system
+
+Movie reviews
+
+Music reviews
+
+Comments
+
+Replies
+
+Likes
+
+Dislikes
+
+Report comments
+
+Creator responses
+
+Comment moderation
+
+Spoiler warnings
+
+F. Social features
+Follow artists
+
+Follow filmmakers
+
+Follow actors
+
+Share movies
+
+Share music
+
+Share playlists
+
+Public user profiles
+
+Activity feeds
+
+Creator communities
+
+4. FILMSNYARWANDA – Complete features
+"Shuwa Dilu" series: A fresh take on Rwandan sitcom - The New Times
+The Great Lakes Eye
+How can the film industry in Rwanda be boosted?
+ - The New Times
+This platform should focus on promoting Rwandan cinema.
+
+Movie management
+Upload movies
+
+Movie trailers
+
+Movie posters
+
+Movie descriptions
+
+Movie titles in Kinyarwanda and English
+
+Release dates
+
+Movie duration
+
+Production year
+
+Film categories
+
+Film genres
+
+Movie language
+
+Subtitle support
+
+Movie quality
+
+Age restrictions
+
+Cast and crew
+
+Director information
+
+Producer information
+
+Production company
+
+Film awards
+
+Copyright information
+
+Rwandan film industry directory
+Create profiles for:
+
+Actors
+
+Actresses
+
+Directors
+
+Producers
+
+Screenwriters
+
+Cinematographers
+
+Editors
+
+Production companies
+
+Film studios
+
+Each profile should include biographies, photos, filmography, social links and verified status.
+
+Additional features
+Rwandan film news
+
+Upcoming movie releases
+
+Exclusive premieres
+
+Trending Rwandan films
+
+Best-rated Rwandan films
+
+Film festivals
+
+Interviews
+
+Behind-the-scenes videos
+
+Local film awards
+
+Filmmaker applications
+
+5. AIMEFILMS – Complete features
+Movie Streaming Platform Web App by Ronas IT | UI/UX Team on Dribbble
+An Online Recommendation System Case Study by Andersen
+Daily UI #057 – Video Player by Alexander Mochalov on Dribbble
+This should be your main movie streaming service.
+
+Movie categories
+Action
+
+Adventure
+
+Comedy
+
+Drama
+
+Horror
+
+Romance
+
+Thriller
+
+Science fiction
+
+Animation
+
+Documentary
+
+Family
+
+Historical
+
+Crime
+
+Fantasy
+
+Movie streaming features
+Online movie player
+
+Adaptive video quality
+
+Fullscreen mode
+
+Subtitles
+
+Multiple audio languages
+
+Resume watching
+
+Continue watching
+
+Watch history
+
+Skip intro
+
+Next episode
+
+Autoplay
+
+Picture-in-picture where supported
+
+Playback speed controls
+
+Multiple device support
+
+Video quality selection
+
+Playback progress saving
+
+TV series management
+Series information
+
+Seasons
+
+Episodes
+
+Episode descriptions
+
+Episode thumbnails
+
+Episode release schedules
+
+Season trailers
+
+Next episode recommendations
+
+Recently released episodes
+
+Premium movie features
+Exclusive movies
+
+Early access
+
+Premium premieres
+
+Pay-per-view movies
+
+Monthly subscriptions
+
+Yearly subscriptions
+
+Rental movies
+
+Movie bundles
+
+6. MUSICSPART – Complete features
+Mdundo.com：安全还是可信？ (信任评分 88/100)
+Music Player App by Rakin on Dribbble
+Boomplay & Audiomack 2025 – Growth Opportunities for Artists
+MusicSpart should work like a professional music streaming service.
+
+Music management
+Upload songs
+
+Upload albums
+
+Upload EPs
+
+Upload singles
+
+Upload music videos
+
+Upload cover art
+
+Song descriptions
+
+Music genres
+
+Release dates
+
+Artist names
+
+Featured artists
+
+Producers
+
+Songwriters
+
+Music labels
+
+Copyright ownership
+
+Lyrics
+
+Explicit content labels
+
+Music player
+Play and pause
+
+Previous and next
+
+Repeat
+
+Shuffle
+
+Volume control
+
+Seek bar
+
+Queue management
+
+Background playback where supported
+
+Recently played
+
+Favorite songs
+
+Create playlists
+
+Share songs
+
+Audio quality settings
+
+Artist dashboard
+Artists should have access to:
+
+Upload music
+
+Edit songs
+
+Manage albums
+
+Manage artist profiles
+
+View streaming statistics
+
+View total listeners
+
+View monthly listeners
+
+View song popularity
+
+View revenue
+
+View payment history
+
+Request withdrawals
+
+Manage promotional campaigns
+
+Manage music videos
+
+Music charts
+Top 100 songs
+
+Trending songs
+
+Most streamed artists
+
+Most streamed albums
+
+New releases
+
+Popular Rwandan music
+
+African music charts
+
+Weekly charts
+
+Monthly charts
+
+7. Professional subscription and payment system
+This is very important if you want AimeFilms to become a real business.
+
+Task Management SaaS Website UIUX Design by Ui Mile on Dribbble
+Subscription plans
+You can introduce the following example plans:
+
+Plan
+
+Features
+
+Free
+
+Limited free movies and music
+
+Basic
+
+Standard streaming access
+
+Premium
+
+Full premium content access
+
+Family
+
+Multiple profiles and devices
+
+Creator
+
+Creator management tools
+
+Prices should be configurable through the admin dashboard.
+
+Payment methods
+Because you are targeting Rwanda and potentially international customers, consider:
+
+MTN Mobile Money
+
+Airtel Money
+
+Visa
+
+Mastercard
+
+PayPal, where supported
+
+Other supported payment gateways
+
+Possible payment integrations include:
+
+Flutterwave
+
+Paystack
+
+Stripe
+
+Check Rwanda merchant availability and supported payment methods before selecting a gateway.
+
+Payment functionality
+Subscription checkout
+
+Payment verification
+
+Payment history
+
+Automatic subscription activation
+
+Subscription renewal
+
+Subscription cancellation
+
+Failed payment handling
+
+Refund management
+
+Invoice generation
+
+Transaction references
+
+Payment notifications
+
+Creator earnings
+
+Revenue sharing
+
+Withdrawal requests
+
+Important: Never activate a paid subscription just because the browser redirects to a success page. Verify payments using server-side gateway verification and signed webhooks.
+
+8. Creator and author support system
+This is one of the most important parts of your project.
+
+Your platform should not just allow people to watch movies. It should support the people who produce the content.
+
+Creator registration
+Creators should apply to become:
+
+Filmmakers
+
+Movie producers
+
+Music artists
+
+Music producers
+
+Record labels
+
+Content publishers
+
+Creator verification
+Identity verification
+
+Email verification
+
+Phone verification
+
+Ownership verification
+
+Copyright declaration
+
+Admin approval
+
+Verified creator badge
+
+Creator workspace
+StreamCrea — One platform for streamers
+Each creator gets a private dashboard with:
+
+Content uploads.
+
+Content management.
+
+Publishing schedules.
+
+Draft content.
+
+Pending approval.
+
+Published content.
+
+Rejected content.
+
+Copyright claims.
+
+Viewer statistics.
+
+Streaming statistics.
+
+Revenue reports.
+
+Withdrawal requests.
+
+Support tickets.
+
+Creator revenue system
+Creators should be able to earn from:
+
+Paid movie rentals
+
+Premium movie views
+
+Music streams
+
+Music purchases
+
+Exclusive content
+
+Sponsored promotions
+
+You should establish transparent revenue-sharing rules, minimum withdrawal thresholds, and reporting periods.
+
+9. Super Admin dashboard
+Essential system component
+The super admin dashboard should control the entire ecosystem.
+
+Playout | OTT | SSAI | Ad Insertion and Live Streaming Solutions
+Main dashboard overview
+Total registered users
+
+Active users
+
+Total movies
+
+Total music tracks
+
+Total artists
+
+Total filmmakers
+
+Total creators
+
+Total subscriptions
+
+Total transactions
+
+Total revenue
+
+Pending creator applications
+
+Pending content approvals
+
+Copyright complaints
+
+Support tickets
+
+Platform management
+The admin should be able to switch between:
+
+FilmsNyarwanda administration
+
+AimeFilms administration
+
+MusicSpart administration
+
+Global administration
+
+User management
+View users
+
+Search users
+
+Edit accounts
+
+Suspend users
+
+Ban users
+
+Verify users
+
+Reset accounts
+
+Assign roles
+
+Manage permissions
+
+Content management
+Approve content
+
+Reject content
+
+Edit content
+
+Delete content
+
+Feature content
+
+Schedule publishing
+
+Manage categories
+
+Manage genres
+
+Manage banners
+
+Manage advertisements
+
+Manage copyright complaints
+
+Financial management
+View revenue
+
+View subscriptions
+
+View payments
+
+Manage refunds
+
+Manage creator earnings
+
+Approve withdrawals
+
+Generate financial reports
+
+Export reports
+
+Website configuration
+Website name
+
+Logo
+
+Favicon
+
+Homepage banners
+
+SEO settings
+
+Social media links
+
+Contact information
+
+Terms and conditions
+
+Privacy policy
+
+Maintenance mode
+
+Email settings
+
+Payment gateway settings
+
+10. Professional website design
+I recommend a modern, cinematic interface.
+
+AIMEFILMS visual direction
+CineStream Pro — Movie Streaming App Built with AI | Blink
+Black · Red · Charcoal · White
+
+Suggested interface
+
+Dark cinematic background
+
+Large featured movie banners
+
+Horizontal movie carousels
+
+High-quality posters
+
+Responsive navigation
+
+Elegant hover effects
+
+Modern video player
+
+MUSICSPART visual direction
+Spotify - redesigned | Music app design, Spotify design, Web ui design
+Suggested interface
+
+Dark interface
+
+Green or purple accent
+
+Persistent music player
+
+Album cover grids
+
+Artist profiles
+
+Playlist navigation
+
+FILMSNYARWANDA visual direction
+mCini Tv - An African based OTT Platform by Roshni Satpathy on Dribbble
+Suggested interface
+
+Dark background
+
+Gold and red accents
+
+Rwandan cinema imagery
+
+Featured local filmmakers
+
+Rwandan film collections
+
+11. Technical architecture using PHP PDO
+Here is how I would organize the technical side.
+
+Recommended technology stack
+Technology
+
+Purpose
+
+PHP 8.3+
+
+Backend
+
+PDO
+
+Secure database access
+
+MySQL 8+
+
+Database
+
+HTML5
+
+Page structure
+
+CSS3
+
+Styling
+
+Bootstrap 5
+
+Responsive design
+
+JavaScript
+
+Interactivity
+
+AJAX / Fetch API
+
+Dynamic operations
+
+FFmpeg
+
+Video and audio processing
+
+HLS
+
+Adaptive video streaming
+
+SMTP
+
+Email notifications
+
+Redis
+
+Caching and queues
+
+Nginx
+
+Web server
+
+Cloud storage
+
+Media storage
+
+CDN
+
+Media delivery
+
+You can start with PHP and MySQL and introduce Redis and additional infrastructure as your audience grows.
+
+Recommended project folder structure
+I recommend a modular structure, rather than placing everything inside one PHP file.
+
+
+aimefilms/
+│
+├── app/
+│   ├── Core/
+│   │   ├── Database.php
+│   │   ├── Router.php
+│   │   ├── Controller.php
+│   │   ├── Auth.php
+│   │   ├── Middleware.php
+│   │   └── Validator.php
+│   │
+│   ├── Models/
+│   ├── Controllers/
+│   ├── Services/
+│   ├── Middleware/
+│   ├── Helpers/
+│   └── Policies/
+│
+├── config/
+│   ├── app.php
+│   ├── database.php
+│   ├── mail.php
+│   └── payment.php
+│
+├── modules/
+│   ├── filmsnyarwanda/
+│   ├── aimefilms/
+│   ├── musicspart/
+│   ├── users/
+│   ├── creators/
+│   ├── subscriptions/
+│   ├── payments/
+│   ├── notifications/
+│   ├── reviews/
+│   ├── analytics/
+│   └── support/
+│
+├── public/
+│   ├── index.php
+│   ├── assets/
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── images/
+│   └── uploads/
+│
+├── resources/
+│   ├── views/
+│   ├── emails/
+│   └── languages/
+│
+├── routes/
+│   ├── web.php
+│   ├── api.php
+│   └── admin.php
+│
+├── storage/
+│   ├── logs/
+│   ├── cache/
+│   └── temporary/
+│
+├── database/
+│   ├── migrations/
+│   └── seeders/
+│
+├── vendor/
+├── .env
+├── composer.json
+└── README.md
+Keep your uploaded media outside the publicly executable PHP directory. Use private storage and controlled streaming access for protected content.
+
+PDO database connection example
+
+<?php
+
+class Database
+{
+    private static ?PDO $connection = null;
+
+    public static function connect(): PDO
+    {
+        if (self::$connection === null) {
+
+            $host = $_ENV['DB_HOST'];
+            $database = $_ENV['DB_DATABASE'];
+            $username = $_ENV['DB_USERNAME'];
+            $password = $_ENV['DB_PASSWORD'];
+
+            $dsn = "mysql:host=$host;dbname=$database;charset=utf8mb4";
+
+            self::$connection = new PDO(
+                $dsn,
+                $username,
+                $password,
+                [
+                    PDO::ATTR_ERRMODE =>
+                        PDO::ERRMODE_EXCEPTION,
+
+                    PDO::ATTR_DEFAULT_FETCH_MODE =>
+                        PDO::FETCH_ASSOC,
+
+                    PDO::ATTR_EMULATE_PREPARES =>
+                        false
+                ]
+            );
+        }
+
+        return self::$connection;
+    }
+}
+
+Use prepared statements for all user-controlled database queries.
+
+12. Database tables you will need
+A professional system needs a properly planned database.
+
+Here is the recommended database structure.
+
+Module
+
+Main database tables
+
+Authentication
+
+users, roles, permissions, user_roles
+
+Profiles
+
+user_profiles, creator_profiles
+
+Platforms
+
+platforms, platform_settings
+
+Content
+
+content, content_categories, genres
+
+Movies
+
+movies, movie_cast, movie_crew
+
+Series
+
+series, seasons, episodes
+
+Music
+
+tracks, albums, artists, playlists
+
+Creators
+
+creator_applications, creator_verifications
+
+Streaming
+
+watch_history, listening_history
+
+Engagement
+
+favorites, ratings, comments, follows
+
+Subscriptions
+
+plans, subscriptions, subscription_devices
+
+Payments
+
+payments, invoices, refunds
+
+Revenue
+
+creator_earnings, revenue_transactions, withdrawals
+
+Notifications
+
+notifications, notification_preferences
+
+Support
+
+support_tickets, support_replies
+
+Security
+
+login_logs, audit_logs, sessions
+
+Marketing
+
+advertisements, promotions, banners
+
+SEO
+
+seo_metadata, redirects
+
+Copyright
+
+copyright_claims, licenses, takedown_requests
+
+One important design decision: use a shared content management system with platform-specific content types and permissions. This prevents the three websites from developing duplicate systems.
+
+13. Features that will help you compete internationally
+These are the features that separate a basic streaming website from a serious commercial platform.
+
+Feature
+
+Why it matters
+
+Adaptive streaming
+
+Better playback on slow internet
+
+CDN integration
+
+Faster video delivery
+
+HLS video streaming
+
+Multiple video quality levels
+
+Mobile-first design
+
+Better smartphone experience
+
+PWA support
+
+App-like experience
+
+Multi-language support
+
+International audiences
+
+SEO optimization
+
+Search engine visibility
+
+Recommendation engine
+
+Personalized discovery
+
+Analytics dashboard
+
+Business intelligence
+
+DRM integration
+
+Additional content protection
+
+Anti-piracy controls
+
+Protect licensed content
+
+Multi-device support
+
+Better user experience
+
+Automated transcoding
+
+Efficient media processing
+
+Backup system
+
+Data protection
+
+API architecture
+
+Future mobile applications
+
+Accessibility
+
+Wider audience support
+
+Content moderation
+
+Safer platform
+
+Legal compliance
+
+Commercial sustainability
+
+Important: A PHP server should not be responsible for directly serving thousands of large video files. Use object storage, a video processing service, and a CDN. Also, DRM and download protection require specialist infrastructure; hiding a video URL alone does not protect copyrighted content.
+
+14. Security features
+Do not overlook security. You will be handling user accounts, payments, and copyrighted content.
+
+Implement:
+
+Password hashing using password_hash().
+
+Password verification using password_verify().
+
+CSRF protection.
+
+XSS protection.
+
+SQL injection protection using PDO prepared statements.
+
+Session regeneration after login.
+
+Secure HTTP-only cookies.
+
+Rate limiting.
+
+Login attempt restrictions.
+
+File upload validation.
+
+MIME-type validation.
+
+Malware scanning for uploads.
+
+Role and permission checks.
+
+Secure payment webhooks.
+
+Audit logs.
+
+Database backups.
+
+HTTPS everywhere.
+
+Secrets stored in environment variables.
+
+Protection against IDOR vulnerabilities.
+
+Admin two-factor authentication.
+
+Also establish copyright licensing procedures, content removal policies, privacy policies, and terms of service before accepting commercial uploads.
+
+15. Revenue generation
+Your business should have several sources of income.
+
+Film History: Film Genres | Culture, history & humanities course | London  | City Lit
+Movie rentals and purchases
+
+Users pay to watch selected movies or purchase digital access where licensing permits.
+
+Streaming Cinema Mobile App by Aleksei Bykov for Lineup on Dribbble
+Subscriptions
+
+Monthly and yearly access to premium content.
+
+An young professional smiling energetic african male singer wearing headphones is performing a new song with a microphone while recording it in a music studio.
+Music monetization
+
+Revenue sharing from eligible streams and music purchases.
+
+Business Development | Stellar Enterprise
+Advertising
+
+Sponsored content, banner advertising and video advertisements.
+
+GALLERY | The SA premiere of The Woman King | News24
+Promotions and premieres
+
+Paid promotions, featured releases and exclusive premieres.
+
+16. Recommended development roadmap
+Don't attempt to develop everything simultaneously. Build a strong foundation, then expand.
+
+Phase 1 – Core system
+
+PHP PDO architecture
+
+Database design
+
+Authentication
+
+User profiles
+
+Role-based permissions
+
+Three-platform structure
+
+Super admin dashboard
+
+Phase 2 – Content management
+
+Movie uploads
+
+Music uploads
+
+Creator applications
+
+Content approval
+
+Categories and genres
+
+Artist and filmmaker profiles
+
+Phase 3 – Streaming system
+
+Movie player
+
+Music player
+
+Video transcoding
+
+Adaptive streaming
+
+Watch history
+
+Playlists
+
+Favorites
+
+Phase 4 – Business system
+
+Subscription plans
+
+Payment integration
+
+Premium content
+
+Creator earnings
+
+Revenue sharing
+
+Withdrawal system
+
+Phase 5 – Community and marketing
+
+Reviews
+
+Ratings
+
+Comments
+
+Notifications
+
+Search optimization
+
+Advertising
+
+Promotions
+
+Phase 6 – International expansion
+
+Mobile applications
+
+Advanced recommendations
+
+CDN
+
+DRM
+
+Multi-language support
+
+Advanced analytics
+
+International payment methods
+
+17. Suggested website URLs
+You could organize the three platforms like this:
+
+Platform
+
+URL
+
+Main website
+
+aimefilms.com
+
+FilmsNyarwanda
+
+filmsnyarwanda.aimefilms.com
+
+AimeFilms
+
+www.aimefilms.com
+
+MusicSpart
+
+musicspart.aimefilms.com
+
+Admin
+
+admin.aimefilms.com
+
+Creator portal
+
+studio.aimefilms.com
+
+API
+
+api.aimefilms.com
+
+These are proposed URL structures, assuming the domain is available.
+
+18. My final recommendation: Build AIMEFILMS as one ecosystem
+Scale OTT Platform จาก 1 ล้าน สู่ 12 ล้าน Users: เมื่อ Streaming ไม่ได้พังที่ Video เสมอไป · Muze
+The most important architectural decision is to avoid building three completely independent websites.
+
+Instead:
+
+AIMEFILMS ECOSYSTEM
+Central administration and shared backend
+
+FILMS
+
+Nyarwanda
+
+AIME
+
+Films
+
+MUSIC
+
+Spart
+
+SHARED PHP PDO BACKEND
+
+Authentication · Users · Creators · Payments · Subscriptions · Notifications · Analytics · Security
+
+MYSQL DATABASE + MEDIA STORAGE + CDN
+
+This architecture will make maintenance easier, reduce duplicated code, and allow you to introduce new products in the future.
+
+19. Let's establish the actual project specifications
+Before we start writing the PHP code, I recommend confirming four important architectural decisions.
+
+1. How should the three websites work?
+
+
+One shared system with three separate websites (recommended)
+
+Three completely independent websites
+
+One website with three sections
+2. How should users access movies and music?
+
+
+Everything free
+
+Everything paid
+
+Free and premium content (recommended)
+3. How should creators publish their content?
+
+
+Creators upload, admin approves before publishing (recommended)
+
+Creators publish immediately
+
+Both, depending on creator verification status
+4. Should the websites have different designs?
+
+
+Three different professional designs
+
+One common design for all three
+
+Similar designs with different branding
+My ultimate goal for this project would be to make AIMEFILMS a complete Rwandan-born entertainment ecosystem, supporting local creators while serving audiences across Africa and internationally.
+
+
+Improve accuracy for technical work
+Upgrade to Plus and use increased reasoning to debug code, work through systems, and solve math or science problems.
+
+
+
